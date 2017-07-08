@@ -1,0 +1,267 @@
+/* GENERAL CSS */
+
+body {
+	background: url(../Project-Images/cover.jpg) no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0 100px 0 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+}
+#home_container {
+	width: 90%;
+	position: relative;
+	min-width: 600px;
+	padding-top: 10px;
+	min-height: 100%;
+	height: 100%;
+}
+#container {
+	width: 90%;
+	position: relative;
+	min-width: 600px;
+	padding-top: 10px;
+	background-color: #0DAACB;
+	height: 100%;
+	min-height: 100%;
+	margin: 10px auto -20px; /* the bottom margin is the negative value of the footer's height */
+}
+/* HEADER CSS */
+#header {
+	height: 135px;
+}
+#headerbackground {
+	height: 135px;
+	background: url(../Project-Images/header_background.png) no-repeat center;
+}
+/* MENU BAR CSS */
+#home_menubar {
+	z-index: 1;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	min-width: 450px;
+	height: 50px;
+	background-color: #69676E;
+	border-top: 3px solid #0589A4;
+	border-bottom: 3px solid #0589A4;
+}
+#menubar {
+	height: 50px;
+	background-color: #69676E;
+	border-top: 3px solid #0589A4;
+	border-bottom: 3px solid #0589A4;
+}
+.menubarlinks {
+	height: 50px;
+	text-align: center;
+}
+.menubarlinks li {
+	display: inline;
+}
+.menubarlinks a {
+	font-weight: 600;
+	padding: 16px 10px;
+	color: #22AECB;
+	text-decoration: none;
+}
+.menubarlinks a:hover, .menubarlinks a:active, .menubarlinks .active a:link, .menubarlinks active a:visited {
+	color: #69676E;
+	font-weight: 600;
+	background-color: #0589A4;
+	text-decoration: underline;
+}
+/* SIDEBARS CSS */
+#leftsidebar {
+	text-align: center;
+	margin-top: 30px;
+	height: auto;
+	width: 140px;
+	float: left;
+}
+ul.lmenu {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.leftmenu {
+	float: left;
+	height: auto;
+	width: 139px;
+	list-style-type: none;
+	background-color: #69676E;
+	border-top: 3px solid #0589A4;
+	border-bottom: 3px solid #0589A4;
+}
+.leftmenu li {
+	border-top: 3px solid #0589A4;
+	border-bottom: 3px solid #0589A4;
+}
+.leftmenu li a {
+	display: block;
+	color: #fb8639;
+	text-decoration: none;
+	height: 25px;
+	color: #22AECB;
+}
+.leftmenu a:hover, .leftmenu a:active, .leftmenu .active a:link, .leftmenu active a:visited {
+	color: #69676E;
+	font-weight: 600;
+	background-color: #0589A4;
+	text-decoration: underline;
+}
+/* MAIN CSS */
+#main {
+	overflow: auto;
+	min-height: 400px;
+	padding: 10px;
+	position: relative;
+	border-left: 1px solid #CCC;
+}
+#main a {
+	text-decoration: none;
+}
+.p {
+	display: block;
+	text-indent: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.table {
+	display: block;
+	float: left;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	font-size: 13px;
+	padding-left: 0;
+	margin-right: 10px;
+}
+.title {
+	font-style: italic;
+	text-decoration: underline;
+	text-align: left;
+}
+#second_table {
+	width: 100%;
+}
+#second_table td {
+	border: 1px solid #0589A4;
+}
+#second_table th {
+	border: 1px solid #0589A4;
+}
+#first_table {
+	width: 100%;
+}
+.box {
+	text-align: center;
+	background-color: #69676E;
+	height: auto;
+	margin: 15px 5px;
+	border: 3px solid #0589A4;
+}
+.box a {
+	text-decoration: none;
+}
+.box h2 {
+	font-style: oblique;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+.box p {
+	text-indent: 30px;
+}
+
+.comment_box {
+	text-align: left;
+	border: 3px solid #0589A4;
+	height: auto;
+	margin: 15px 5px;	
+}
+
+#chars_left_counter {
+	width:300px;
+	margin-top:0px;
+	padding:3px;
+	font-size:15px;
+	color: #FFFFFF;
+	text-align:right;
+}
+
+#comments {
+	width:300px;
+}
+/* FOOTER CSS */
+#home_footer {
+	display: block;
+	bottom: 0;
+	height: 20px;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	clear: both;
+	border: 1px solid #666;
+	text-align: center;
+	background-color: #69676E;
+	border-top: 3px solid #0589A4;
+}
+#footer {
+	/*bottom: 0;
+	position: fixed;*/
+	
+	height: 20px;
+	clear: both;
+	border: 1px solid #666;
+	text-align: center;
+	background-color: #69676E;
+	border-top: 3px solid #0589A4;
+}
+#leftfooter {
+	float: left;
+	margin-left: 20px;
+}
+#rightfooter {
+	font-style: italic;
+	margin-right: 20px;
+}
+#rightpart {
+	float: right;
+	color: #22AECB;
+}
+#leftpart {
+	float: right;
+	margin-left: 5px;
+}
+/*SOCIAL BAR CSS*/
+#social-menu {
+	position: fixed;
+	left: -30px;
+	z-index:5;
+}
+nav.social ul {
+	list-style: none;
+	margin-top: 50px;
+	width: 30px;
+	z-index: 1;
+}
+nav.social ul li a {
+	display: block;
+	font-size: 11px;
+	letter-spacing: 1px;
+	font-weight: 600;
+	min-width: 0px;
+}
+nav.social ul li {
+	text-align: center;
+}
+
+@media only screen and (min-width : 150px) and (max-width : 780px) {
+#social-menu {
+	position: relative;
+	float: left;
+	max-width: 50px;
+}
+}

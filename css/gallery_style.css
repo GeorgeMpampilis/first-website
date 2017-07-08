@@ -1,0 +1,24 @@
+.img {
+	margin: 5px;
+	padding: 5px;
+	border: 3px solid #0589A4;
+	height: auto;
+	width: auto;
+	float: left;
+	text-align: center;
+}
+.img img {
+	display: inline;
+	margin: 5px;
+	border: 3px solid #0589A4;
+}
+.img a:hover img {
+	border: 3px solid #69676E;
+}
+.desc {
+	text-align: center;
+	width: 120px;
+	height: 30px;
+	margin: 5px 0 5px 10px;
+	
+}
